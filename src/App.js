@@ -56,8 +56,9 @@ const App = () => {
                             {themeSettings && <ThemeSettings/>}
 
                             <Routes>
-                                {/* Dahboard */}
+                                {/* Dashboard */}
                                 <Route path='/' element={<Ecommerce />} />
+                                <Route path='/Admin_dashboard' element={<Ecommerce />} />
                                 <Route path='ecommerce' element={<Ecommerce />} />
                                 {/* Pages */}
                                 <Route path='/orders' element={<Orders />} />
